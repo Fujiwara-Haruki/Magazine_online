@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+}
+
+/*variáveis*/
+:root{
+    --altura_header: 65px;
+    --altura_footer: 40px;
+    --main_color: rgb(104, 80, 136);
+}
+
+
+/*principal----------------------------------*/
+.meio{
+    min-height: calc(100vh - var(--altura_header) - var(--altura_footer));
+}
+
+
+

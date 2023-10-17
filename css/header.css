@@ -1,0 +1,50 @@
+
+/*cabelçalho*/
+.header{
+    background-color: var(--main_color);
+    height: var(--altura_header);
+    display: flex;
+
+}
+
+/*menu cabeçalho*/
+.menu_1{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+
+/*elemento*/
+.menu_1 li{
+    padding: 23px 0px;
+}
+
+/*link*/
+.menu_1 a{
+    height: 100px;
+    padding: 24px;
+    text-decoration: none;
+    color: beige;
+}
+
+.menu_1 a:hover{
+    background-color: rgb(78, 18, 134);
+}
+
+/*menu 2-----------------------------*/
+.menu_2{
+    display:none;
+    position: absolute;
+    background-color: rgb(224, 107, 162);
+    list-style: none;
+    margin: 24px 0px;
+    flex-direction: column;
+    width: 100px;
+}
+
+/*abrir menu 2*/
+.abrir_menu:hover .menu_2{
+    display: flex;
+    
+}

@@ -1,0 +1,13 @@
+@import url(style.css);
+@import url(header.css);
+@import url(footer.css);
+
+.meio{
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
+
+.div_titulo{
+    text-align: center;
+    font-size: 20px;
+}
