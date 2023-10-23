@@ -35,12 +35,12 @@
 /*menu 2-----------------------------*/
 .menu_2{
     display:none;
-    position: absolute;
+    position: relative;
     background-color: rgb(224, 107, 162);
     list-style: none;
     margin: 24px 0px;
     flex-direction: column;
-    width: 100px;
+
 }
 
 /*abrir menu 2*/

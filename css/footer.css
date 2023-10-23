@@ -3,4 +3,5 @@ footer{
     height: var(--altura_footer);
     background-color: var(--main_color);
     color: beige;
+    text-align: center;
 }

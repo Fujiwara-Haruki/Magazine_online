@@ -1,6 +1,9 @@
 @import url(style.css);
 @import url(header.css);
 @import url(footer.css);
+@import url(bloco.css);
+
+@import url('https://fonts.cdnfonts.com/css/lemon-jelly-personal-use');
 
 .meio{
     margin-left: 18vw;
@@ -9,5 +12,16 @@
 
 .div_titulo{
     text-align: center;
-    font-size: 20px;
+    font-size: 50px;
+    font-family: 'Lemon Jelly Personal Use', sans-serif;
+    color: var(--main_color);
+}
+
+.img_vinho{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.div_img{
+    text-align: center;
 }

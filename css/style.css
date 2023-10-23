@@ -6,12 +6,13 @@
 
 body{
     display: grid;
+    background-color: rgb(245, 220, 228);
 }
 
 /*variáveis*/
 :root{
     --altura_header: 65px;
-    --altura_footer: 40px;
+    --altura_footer: 60px;
     --main_color: rgb(104, 80, 136);
 }
 
