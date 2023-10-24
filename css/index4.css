@@ -1,5 +1,6 @@
 @import url(style.css);
-@import url(header.css);
+@import url(header4.css);
+@import url(footer4.css);
 @import url(footer.css);
 @import url(bloco.css);
 
@@ -19,6 +20,7 @@
 
 .img_vinho{
     max-width: 500px;
+    width: 50vw;
     border-radius: 20px;
 }
 

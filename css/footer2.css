@@ -1,0 +1,13 @@
+/*rodapé-------------------------------------*/
+aside{
+    position: fixed;
+    height: var(--altura_footer);
+    background-color: rgb(224, 107, 162);
+    color: beige;
+    text-align: center;
+    right: 0;
+    top: var(--altura_header);
+    height: 100%;
+    width: 19vw;
+    max-width: 150px;
+}

@@ -1,0 +1,46 @@
+/*cabelçalho*/
+.header{
+    background-color: var(--main_color);
+    height: var(--altura_header);
+    display: flex;
+
+}
+
+/*menu cabeçalho*/
+.menu_1{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+
+
+/*link*/
+.menu_1 a, .menu_2 a{
+    display: flex;
+    padding: 23.5px;
+    text-decoration: none;
+    color: beige;
+}
+
+.menu_1 a:hover, .menu_2 a:hover{
+    background-color: rgb(78, 18, 134);
+}
+
+/*menu 2-----------------------------*/
+.menu_2{
+    display: flex;
+    position: fixed;
+    background-color: rgb(224, 107, 162);
+    list-style: none;
+    flex-direction: column;
+    width: 150px;
+    min-height: calc(100vh - var(--altura_header));
+    max-height: calc(100% - var(--altura_header));
+    height: 100%;
+    width: 19vw;
+    max-width: 150px;
+    top: var(--altura_header);
+}
+
+

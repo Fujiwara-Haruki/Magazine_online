@@ -1,6 +1,6 @@
 @import url(style.css);
-@import url(header.css);
-@import url(footer.css);
+@import url(header2.css);
+@import url(footer2.css);
 @import url(bloco.css);
 
 @import url('https://fonts.cdnfonts.com/css/lemon-jelly-personal-use');
@@ -19,6 +19,7 @@
 
 .img_vinho{
     max-width: 500px;
+    width: 50vw;
     border-radius: 20px;
 }
 
